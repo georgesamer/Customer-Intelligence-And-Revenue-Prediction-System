@@ -1,0 +1,22 @@
+customer_intelligence_system/
+├── config/
+│   └── config.py
+├── data/
+│   └── raw/
+│       └── online_retail.xlsx  ← ضع ملف البيانات هنا
+├── src/
+│   ├── analytics/
+│   │   └── customer_analytics.py
+│   ├── ml/
+│   │   └── revenue_predictor.py
+│   ├── pipeline/
+│   │   └── intelligence_pipeline.py
+│   └── utils/
+│       └── visualizer.py
+├── outputs/
+│   ├── figures/
+│   ├── reports/
+│   └── models/
+├── main.py
+├── requirements.txt
+└── README.md
